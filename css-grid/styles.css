@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* styles for artworks */
+.title {
+    font-weight: bold;
+    font-size:large;
+}
+
+.artist {
+    font-style: italic;
+    font-size: smaller;
+}
+
+/* CSS grid styles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* styles for css grid containing artworks */
+
+.artwork-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.artwork-card {
+    border: 10px;
+    border-color: blueviolet;
+}
