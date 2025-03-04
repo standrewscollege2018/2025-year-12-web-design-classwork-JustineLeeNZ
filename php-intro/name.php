@@ -10,7 +10,16 @@
 
     $chosen_name = $_GET["name"];
 
-    echo $chosen_name;
+    if ($chosen_name == 'Angus') {
+
+        echo "Angus is cool!";
+    } elseif ($chosen_name == 'Josh') {
+        echo "Josh is loud!";
+    }
+    else {
+        echo "Sorry, you're not cool";
+    }
+    
 
     ?>
     
